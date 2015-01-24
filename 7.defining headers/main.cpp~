@@ -1,0 +1,11 @@
+#include <iostream>
+#include "sayhello.h" // 调用了sayhello.h, 里面有sayhello函数的定义
+#include "sayhelloworld.h" //调用了sayhelloworld.h，里面也调用了sayhello.h, 
+
+using namespace std;
+
+int main()
+{
+  sayhelloworld();
+  return 0;
+}
